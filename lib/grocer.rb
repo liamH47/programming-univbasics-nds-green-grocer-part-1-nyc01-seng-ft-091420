@@ -14,6 +14,7 @@ def consolidate_cart(cart)
     item = find_item_by_name_in_collection(cart[index][:item], updated_cart)
     if item
       updated_cart_index = 0
+      while updated_cart_index < updated_cart.length do
   
   # Consult README for inputs and outputs
   #
