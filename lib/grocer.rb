@@ -15,6 +15,19 @@ def consolidate_cart(cart)
     if item
       updated_cart_index = 0
       while updated_cart_index < updated_cart.length do
+        if updated_cart[updated_cart_index][:item] == item[:item]
+          updated_cart[updated_cart_index][:count] += 1
+        end
+        updated_cart_index += 1
+      end
+    else
+      cart[index][:count] = 1
+      updated_cart << cart[index]
+    end
+    index += 1
+  end
+  updated_cart
+end
   
   # Consult README for inputs and outputs
   #
