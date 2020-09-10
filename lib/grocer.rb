@@ -1,5 +1,6 @@
 def find_item_by_name_in_collection(name, collection)
-  new_hash = {}
+  index = 0
+  
   
   # Implement me first!
   #
