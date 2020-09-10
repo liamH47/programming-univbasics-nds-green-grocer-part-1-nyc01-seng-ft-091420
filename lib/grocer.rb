@@ -7,7 +7,7 @@ end
 end
   
 def consolidate_cart(cart)
-  
+  count = 0 
   
   # Consult README for inputs and outputs
   #
