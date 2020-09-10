@@ -7,7 +7,10 @@ end
 end
   
 def consolidate_cart(cart)
-  count = 0 
+  index = 0 
+  updated_cart = []
+  
+  while index < cart.length do 
   
   # Consult README for inputs and outputs
   #
